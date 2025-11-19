@@ -9,7 +9,7 @@
 
 **A comprehensive SQL-based analysis of promotional campaigns and retail events**
 
-[📊 View Analysis](#-project-overview) • [ Key Insights](#-key-insights) • [ Dataset](#-dataset-information) • [ Solutions](#-ad-hoc-analysis)
+[ View Analysis](#-project-overview) • [ Key Insights](#-key-insights) • [ Dataset](#-dataset-information) • [ Solutions](#-ad-hoc-analysis)
 
 </div>
 
@@ -69,7 +69,7 @@ retail_events_db
 └── fact_events (Sales transactions and promotional data)
 ```
 
-### 📑 Table Descriptions
+###  Table Descriptions
 
 | Table | Key Columns | Description |
 |-------|-------------|-------------|
@@ -86,7 +86,7 @@ retail_events_db
 
 ---
 
-## 🔍 Ad-Hoc Analysis
+##  Ad-Hoc Analysis
 
 This project addresses **8 critical business questions** through SQL queries. Each query is accompanied by:
 -  SQL code with detailed comments
@@ -161,9 +161,9 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
-### 🏆 Top Findings
+###  Top Findings
 
 -  **Campaign Performance**: Diwali campaign dominated with ₹125M incremental revenue (152% growth), outperforming Sankranti , while both campaigns collectively doubled baseline revenue to ₹347M—validating AtliQ's festive promotional strategy but highlighting need for Sankranti optimization.
 
@@ -208,7 +208,7 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 <div align="center">
 
@@ -222,9 +222,9 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 ---
 
-## 📖 How to Use This Repository
+##  How to Use This Repository
 
-### 🚀 Getting Started
+###  Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -248,7 +248,7 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I enhanced my skills in:
 
@@ -264,15 +264,14 @@ Through this project, I enhanced my skills in:
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Codebasics** - For providing this amazing challenge opportunity
-- **Dhaval Patel & Hemanand** - For mentorship and guidance
 - **AtliQ Mart** - For the business case study
 
 ---
 
-## 📝 License
+##  License
 
 This project is part of the Codebasics Resume Project Challenge and is available for educational purposes.
 
