@@ -95,7 +95,7 @@ This project addresses **8 critical business questions** through SQL queries. Ea
 
 ###  Ad-Hoc Business Requests
 
-#### **Request 1: High-Value BOGOF Products**   [SQL](SQL_Queries/query1.sql) | [screenshots](screenshots/chart1.png)
+#### **Request 1: High-Value BOGOF Products**   [SQL](SQL_Queries/query1.sql) | [screenshots](screenshots/Chart1.png)
 
 
 Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free). This information will help us identify high-value products that are currently being heavily discounted, which can be useful for evaluating our pricing and promotion strategies. 
@@ -103,7 +103,7 @@ Provide a list of products with a base price greater than 500 and that are featu
 
 ---
 
-#### **Request 2: Store Distribution Overview** �  [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/chart2.png)
+#### **Request 2: Store Distribution Overview** �  [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/Chart2.png)
 
 Generate a report that provides an overview of the number of stores in each city. The results will be sorted in descending order of store counts, allowing us to identify the cities with the highest store presence. The report includes two essential fields: city and store count, which will assist in optimizing our retail operations.
 
@@ -112,7 +112,7 @@ Generate a report that provides an overview of the number of stores in each city
 
 ---
 
-#### **Request 3: Campaign Revenue Report** [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/chart3.png)
+#### **Request 3: Campaign Revenue Report** [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/Chart3.png)
 
 Generate a report that displays each campaign along with the total revenue generated before and after the campaign? The report includes three key fields:
 
@@ -124,7 +124,7 @@ This report should help in evaluating the financial impact of our promotional ca
 
 ---
 
-#### **Request 4: Diwali Campaign ISU Analysis**    [SQL](SQL_Queries/query4.sql) | [screenshots](screenshots/chart4.png)
+#### **Request 4: Diwali Campaign ISU Analysis**    [SQL](SQL_Queries/query4.sql) | [screenshots](screenshots/Chart4.png)
 
 Produce a report that calculates the Incremental Sold Quantity (ISU%) for each category during the Diwali campaign. Additionally, provide rankings for the categories based on their ISU%. The report will include three key fields. 
 
@@ -138,7 +138,7 @@ This information will assist in assessing the category-wise success and impact o
 
 ---
 
-#### **Request 5: Top 5 Products by IR%** [SQL](SQL_Queries/query5.sql) | [screenshots](screenshots/chart5.png)
+#### **Request 5: Top 5 Products by IR%** [SQL](SQL_Queries/query5.sql) | [screenshots](screenshots/Chart5.png)
 
 Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns. The report will provide information on: 
 
@@ -151,14 +151,14 @@ This analysis helps identify the most successful products in terms of incrementa
 **IR% = (ir/revenue before promotion) × 100**
 
 ---
-#### **Request 6: Category-Wise Sales Lift Analysis**    [SQL](SQL_Queries/query6.sql) | [screenshots](screenshots/chart6.png)
+#### **Request 6: Category-Wise Sales Lift Analysis**    [SQL](SQL_Queries/query6.sql) | [screenshots](screenshots/Chart6.png)
 
 
 Analyze which product categories experienced the biggest lift in sales due to promotions. The report should include
 
 ---
 
-#### **Request 7: Top Promotion Types by Incremental Revenue**   [SQL](SQL_Queries/query7.sql) | [screenshots](screenshots/chart7.png)
+#### **Request 7: Top Promotion Types by Incremental Revenue**   [SQL](SQL_Queries/query7.sql) | [screenshots](screenshots/Chart7.png)
 
 
 Identify the top 2 promotion types that generated the highest incremental revenue across all campaigns. The report includes
@@ -166,7 +166,7 @@ Identify the top 2 promotion types that generated the highest incremental revenu
 ---
 
 
-#### **Request 8: Top stores by  Incremental Revenue    [SQL](SQL_Queries/query8.sql) | [screenshots](screenshots/chart8.png)
+#### **Request 8: Top stores by  Incremental Revenue    [SQL](SQL_Queries/query8.sql) | [screenshots](screenshots/Chart8.png)
 
 
 List the top 10 stores ranked by incremental revenue generated during promotions
