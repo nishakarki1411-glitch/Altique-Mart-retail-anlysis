@@ -29,18 +29,6 @@
 
 
 
-
-
-- [Project Overview](#-project-overview)
-- [Business Context](#-business-context)
-- [Dataset Information](#-dataset-information)
-- [Ad-Hoc Analysis](#-ad-hoc-analysis)
-- [SQL Queries & Visualizations](#-sql-queries--visualizations)
-- [Key Insights](#-key-insights)
-- [Tools & Technologies](#️-tools--technologies)
-- [How to Use This Repository](#-how-to-use-this-repository)
-- [Connect With Me](#-connect-with-me)
-
 ---
 
 ##  Project Overview
