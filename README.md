@@ -9,7 +9,6 @@
 
 **A comprehensive SQL-based analysis of promotional campaigns and retail events**
 
-[ View Analysis](#-project-overview) • [ Key Insights](#-key-insights) • [ Dataset](#-dataset-information) • [ Solutions](#-ad-hoc-analysis)
 
 </div>
 
@@ -103,7 +102,7 @@ Provide a list of products with a base price greater than 500 and that are featu
 
 ---
 
-#### **Request 2: Store Distribution Overview** �  [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/Chart2.png)
+#### **Request 2: Store Distribution Overview**   [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/Chart2.png)
 
 Generate a report that provides an overview of the number of stores in each city. The results will be sorted in descending order of store counts, allowing us to identify the cities with the highest store presence. The report includes two essential fields: city and store count, which will assist in optimizing our retail operations.
 
@@ -183,7 +182,7 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 -  **Best Promotion Type**: BOGOF (Buy One Get One Free) emerged as the star performer, with premium products like Atliq Waterproof Immersion Rod (266% IR) and LED Bulbs (263% IR) leading the charge—though its application on high-value items (>₹500) raises margin sustainability concerns requiring strategic recalibration.
   
--  ** Top Performing Cities**:Store distribution analysis reveals concentration in South Indian metros, with Bengaluru leading at 10 stores (20% of total network), followed by Chennai (8) and Hyderabad (7), collectively accounting for 50% of all stores—creating strong regional dominance but highlighting geographic concentration risks and significant expansion opportunities in North and West Indian markets.
+-  **Top Performing Cities**:Store distribution analysis reveals concentration in South Indian metros, with Bengaluru leading at 10 stores (20% of total network), followed by Chennai (8) and Hyderabad (7), collectively accounting for 50% of all stores—creating strong regional dominance but highlighting geographic concentration risks and significant expansion opportunities in North and West Indian markets.
 
 -  **Category Winners**: Combo1 led revenue with ₹122.6M despite low volume, while Grocery & Staples drove the highest volume but lower revenue (₹42.6M). This shows premium categories bring revenue, while staples drive volume.
  
@@ -191,7 +190,7 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 ###  Recommendations
 
-1. **Prioritize Value Over Volume 💰
+1. Prioritize Value Over Volume 💰
 - What: Shift budget to high-revenue categories
 - Key Actions:
 
@@ -234,31 +233,6 @@ List the top 10 stores ranked by incremental revenue generated during promotions
 
 </div>
 
----
-
-##  How to Use This Repository
-
-###  Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/retail-events-analytics.git
-   cd retail-events-analytics
-   ```
-
-2. **Set up the database**
-   - Import the CSV files from `/data` folder into your SQL database
-   - Database name: `retail_events_db`
-
-3. **Run the queries**
-   - Navigate to `/queries` folder
-   - Execute queries in your preferred SQL client
-   - Compare results with visualizations in `/visualizations` folder
-
-4. **Explore insights**
-   - Review each query's business context
-   - Analyze the visualization screenshots
-   - Draw your own conclusions from the data
 
 ---
 
