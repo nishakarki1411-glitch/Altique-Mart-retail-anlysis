@@ -19,7 +19,7 @@ ir_calc AS (
             2
         ) AS ir_percentage
     FROM product_revenue
-    WHERE rev_before > 0  -- avoid division by zero
+    WHERE rev_before > 0 
 )
 
 SELECT 
