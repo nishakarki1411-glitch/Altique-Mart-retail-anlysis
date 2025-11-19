@@ -17,6 +17,20 @@
 
 ## 📋 Table of Contents
 
+- [Project Overview](#project-overview)
+- [Business Context](#business-context)
+- [Dataset Information](#dataset-information)
+- [Ad-Hoc Analysis](#ad-hoc-analysis)
+- [SQL Queries and Visualizations](#sql-queries-and-visualizations)
+- [Key Insights](#key-insights)
+- [Tools and Technologies](#tools-and-technologies)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Connect With Me](#connect-with-me)
+
+
+
+
+
 - [Project Overview](#-project-overview)
 - [Business Context](#-business-context)
 - [Dataset Information](#-dataset-information)
@@ -152,13 +166,9 @@ Identify the top 2 promotion types that generated the highest incremental revenu
 ---
 
 
-#### ** Request 8: Top stores by  Incremental Revenue
+#### **Request 8: Top stores by  Incremental Revenue
 List the top 10 stores ranked by incremental revenue generated during promotions
 
----
-## 📊 SQL Queries & Visualizations
-
-All SQL queries are organized in the `/queries` folder with corresponding visualization screenshots in `/visualizations`.
 
 
 ---
@@ -180,31 +190,34 @@ All SQL queries are organized in the `/queries` folder with corresponding visual
 ###  Recommendations
 
 1. **Prioritize Value Over Volume 💰
-What: Shift budget to high-revenue categories
-Key Actions:
+- What: Shift budget to high-revenue categories
+- Key Actions:
 
 1. 60% budget to Combo1 & Home Appliances (₹147.6M revenue)
 2. Limit BOGOF to products <₹500
 3. Diwali gets 60% budget (₹125M IR justifies it)
 4. Optimize Sankranti strategy.
+---
 
 2. Accelerate Tier-2 City Expansion 🏪
-What: Replicate Mysuru's success model
-Key Actions:
+- What: Replicate Mysuru's success model
+- Key Actions:
 
-1.Launch in 8-10 tier-2 cities (Pune, Jaipur, Indore, Nagpur)
+1. Launch in 8-10 tier-2 cities (Pune, Jaipur, Indore, Nagpur)
 2. 3-4 stores per city (Mysuru model: STMYS-1 = ₹6.45M)
-3.Reduce 100% South India risk
-4.Target 25% revenue from tier-2 in 18 months.
+3. Reduce 100% South India risk
+4. Target 25% revenue from tier-2 in 18 months.
+---
 
 3. Execute Emergency Category Intervention 🚨
-What: Fix Personal Care + Scale Combo1 success
-Key Actions:
+- What: Fix Personal Care + Scale Combo1 success
+- Key Actions:
 
-1.Personal Care turnaround (90-day plan for ₹0.7M disaster)
-2.Launch 15-20 new combo offerings
-3.300% inventory increase for top 10 products
-4.Real-time inventory systems
+1. Personal Care turnaround (90-day plan for ₹0.7M disaster)
+2. Launch 15-20 new combo offerings
+3. 300% inventory increase for top 10 products
+4. Real-time inventory systems
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -251,12 +264,12 @@ Key Actions:
 
 Through this project, I enhanced my skills in:
 
-- ✅ Complex SQL query writing with multiple JOINs
-- ✅ Data aggregation and grouping techniques
-- ✅ Business metrics calculation (ISU, IR, Revenue)
-- ✅ Data visualization and storytelling
-- ✅ Translating business questions into SQL queries
-- ✅ Drawing actionable insights from data
+-  Complex SQL query writing with multiple JOINs
+-  Data aggregation and grouping techniques
+-  Business metrics calculation (ISU, IR, Revenue)
+-  Data visualization and storytelling
+-  Translating business questions into SQL queries
+-  Drawing actionable insights from data
 
 
 
