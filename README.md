@@ -97,7 +97,8 @@ This project addresses **8 critical business questions** through SQL queries. Ea
 ###  Ad-Hoc Business Requests
 
 #### **Request 1: High-Value BOGOF Products** 
-Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free). This information will help us identify high-value products that are currently being heavily discounted, which can be useful for evaluating our pricing and promotion strategies.
+Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free). This information will help us identify high-value products that are currently being heavily discounted, which can be useful for evaluating our pricing and promotion strategies.  [SQL](SQL_Queries/query1.sql) | [Screenshots](Screenshots/chart1.png)
+
 
 
 
