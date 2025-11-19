@@ -21,7 +21,6 @@
 - [Business Context](#business-context)
 - [Dataset Information](#dataset-information)
 - [Ad-Hoc Analysis](#ad-hoc-analysis)
-- [SQL Queries and Visualizations](#sql-queries-and-visualizations)
 - [Key Insights](#key-insights)
 - [Tools and Technologies](#tools-and-technologies)
 - [How to Use This Repository](#how-to-use-this-repository)
@@ -96,23 +95,27 @@ This project addresses **8 critical business questions** through SQL queries. Ea
 
 ###  Ad-Hoc Business Requests
 
-#### **Request 1: High-Value BOGOF Products** 
-Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free). This information will help us identify high-value products that are currently being heavily discounted, which can be useful for evaluating our pricing and promotion strategies.  [SQL](SQL_Queries/query1.sql) | [Screenshots](Screenshots/chart1.png)
+#### **Request 1: High-Value BOGOF Products**   [SQL](SQL_Queries/query1.sql) | [screenshots](screenshots/chart1.png)
 
 
+Provide a list of products with a base price greater than 500 and that are featured in promo type of 'BOGOF' (Buy One Get One Free). This information will help us identify high-value products that are currently being heavily discounted, which can be useful for evaluating our pricing and promotion strategies. 
 
 
 ---
 
-#### **Request 2: Store Distribution Overview** �
+#### **Request 2: Store Distribution Overview** �  [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/chart2.png)
+
 Generate a report that provides an overview of the number of stores in each city. The results will be sorted in descending order of store counts, allowing us to identify the cities with the highest store presence. The report includes two essential fields: city and store count, which will assist in optimizing our retail operations.
+
 
 **Output Fields:** `city`, `store_count`
 
 ---
 
-#### **Request 3: Campaign Revenue Report** 
+#### **Request 3: Campaign Revenue Report** [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/chart3.png)
+
 Generate a report that displays each campaign along with the total revenue generated before and after the campaign? The report includes three key fields:
+
 - `campaign_name`
 - `total_revenue(before_promotion)`
 - `total_revenue(after_promotion)`
@@ -121,8 +124,10 @@ This report should help in evaluating the financial impact of our promotional ca
 
 ---
 
-#### **Request 4: Diwali Campaign ISU Analysis** 
-Produce a report that calculates the Incremental Sold Quantity (ISU%) for each category during the Diwali campaign. Additionally, provide rankings for the categories based on their ISU%. The report will include three key fields: 
+#### **Request 4: Diwali Campaign ISU Analysis**    [SQL](SQL_Queries/query4.sql) | [screenshots](screenshots/chart4.png)
+
+Produce a report that calculates the Incremental Sold Quantity (ISU%) for each category during the Diwali campaign. Additionally, provide rankings for the categories based on their ISU%. The report will include three key fields. 
+
 - `category`
 - `isu%`
 - `rank order`
@@ -133,8 +138,10 @@ This information will assist in assessing the category-wise success and impact o
 
 ---
 
-#### **Request 5: Top 5 Products by IR%** 
-Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns. The report will provide information on:
+#### **Request 5: Top 5 Products by IR%** [SQL](SQL_Queries/query5.sql) | [screenshots](screenshots/chart5.png)
+
+Create a report featuring the Top 5 products, ranked by Incremental Revenue Percentage (IR%), across all campaigns. The report will provide information on: 
+
 - `product_name`
 - `category`
 - `ir%`
@@ -144,18 +151,24 @@ This analysis helps identify the most successful products in terms of incrementa
 **IR% = (ir/revenue before promotion) × 100**
 
 ---
-#### **Request 6: Category-Wise Sales Lift Analysis**
+#### **Request 6: Category-Wise Sales Lift Analysis**    [SQL](SQL_Queries/query6.sql) | [screenshots](screenshots/chart6.png)
+
+
 Analyze which product categories experienced the biggest lift in sales due to promotions. The report should include
 
 ---
 
-#### **Request 7: Top Promotion Types by Incremental Revenue** 
+#### **Request 7: Top Promotion Types by Incremental Revenue**   [SQL](SQL_Queries/query7.sql) | [screenshots](screenshots/chart7.png)
+
+
 Identify the top 2 promotion types that generated the highest incremental revenue across all campaigns. The report includes
 
 ---
 
 
-#### **Request 8: Top stores by  Incremental Revenue
+#### **Request 8: Top stores by  Incremental Revenue    [SQL](SQL_Queries/query8.sql) | [screenshots](screenshots/chart8.png)
+
+
 List the top 10 stores ranked by incremental revenue generated during promotions
 
 
