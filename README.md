@@ -111,7 +111,7 @@ Generate a report that provides an overview of the number of stores in each city
 
 ---
 
-#### **Request 3: Campaign Revenue Report** [SQL](SQL_Queries/query2.sql) | [screenshots](screenshots/Chart3.png)
+#### **Request 3: Campaign Revenue Report** [SQL](SQL_Queries/query3.sql) | [screenshots](screenshots/Chart3.png)
 
 Generate a report that displays each campaign along with the total revenue generated before and after the campaign? The report includes three key fields:
 
